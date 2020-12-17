@@ -1,0 +1,10 @@
+Bundle-Name: employee-demo-api
+Bundle-SymbolicName: com.liferay.training.employee.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.training.employee.exception,\
+	com.liferay.training.employee.model,\
+	com.liferay.training.employee.service,\
+	com.liferay.training.employee.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../employee-demo-service/service.xml
